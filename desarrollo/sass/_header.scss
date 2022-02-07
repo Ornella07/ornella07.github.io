@@ -1,0 +1,243 @@
+.header-site{
+    padding: 10px;
+    background-size: cover;
+    z-index: 9999;
+
+   .header_nav_logo{
+       display: block;
+       max-width: 420px;
+       width: 308px;
+       height: 83px;
+       padding: 0;
+       margin-top: 5px;
+   }
+  
+   /* .header_nav--item{
+       // list-style: none;
+       width: 90%;
+       max-width: 1000px;
+        padding: 0.625em;
+        margin:20px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+    .header_nav_link{
+        color: $blanco;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 600;
+        
+ 
+    }
+    .header_nav_link::before{
+        content:"";
+         
+     }
+     .header_nav_link::after{
+        content:"";
+        display: block;
+        width: 100%;
+        background-color: rgb(138, 135, 130);
+        height: 2px;
+        opacity: 0;
+        transform: translateY(5px);
+        transition: 0.2s linear all;
+  }
+  
+    .header_nav_link:hover::after{
+        opacity: 1;
+        transform: translateY(0);
+        
+
+    }
+  
+   .header_nav--link:hover{
+       background-color: $blanco;
+      
+   
+   }
+  .header_nav--item:hover{
+   visibility: visible;
+   opacity: 1;
+  
+
+}*/
+    .header_nav-logoimg-mb{
+        display: none;
+        }
+
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster+Two&family=Montserrat:wght@300;400;700&display=swap');
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    min-height:20vh;
+    background-color:transparent;
+
+}
+
+
+.ham{
+    display: none;
+   cursor: pointer;
+   border: none;
+   margin: 0;
+   padding: 0;
+   background-color: transparent;
+
+}
+
+
+.ham span{
+    display: block;
+    background-color: #f3f3f3;
+    height: 3px;
+    width: 28px;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+.enlaces-menu{
+    display: flex;
+    padding: 0;
+
+}
+
+.enlaces-menu li{
+    padding: 0 40px;
+    list-style-type: none;
+    transition: 0.3s;
+}
+
+
+.enlaces-menu li a{
+    text-decoration: none;
+    font-size: 1.8em;
+    color: #f3f3f3;
+    font-weight: 50;
+}
+
+.enlaces-menu li:hover{
+    background-color:rgba(32,29 , 29 , 0.6);
+     
+}
+
+/*dispositivos*/
+
+@media (max-width:767px){
+    
+   .logo{
+       display: none;
+   }
+    .ham{
+        cursor:pointer;
+        display: block;
+        position: absolute;
+        top:15px;
+        right: 25px; 
+        transition:0.2s 0.1;
+       }
+    .ham .br1{
+        margin-top: -9px;
+        margin-left: 6px;
+    }
+    .ham .br2{
+        margin-left: 15px;
+    }
+    .ham .br3{
+        margin-top: 9px;
+    }
+    .ham:hover{
+        transform: rotate(360deg);
+    }
+
+    nav{
+         flex-direction: column;
+        align-items:flex-start;
+        padding:25px 0;
+       }
+    .enlaces-menu{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height:50vh;
+        margin: 50%;
+        padding: 0;
+        width: 100%;
+        display: none;
+        opacity: 0;
+    
+    }
+    .enlaces-menu li{
+        width: 100%;
+        text-align: center;
+        padding:20px;
+    }
+    @keyframes muestraMenu {
+        from{opacity:0;}
+        to{opacity: 1;}
+    }
+    .enlaces-menu.activado{
+        display: flex;
+        animation: muestraMenu 350ms ease-in-out both;
+    }
+
+    .br-1.animado{
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+
+    }
+   
+    .br2.animado{
+        opacity: 0;
+
+    }
+
+    .br-3.animado{
+        transform: rotate(45deg)translate(-10px -8px);
+    }
+
+
+}
+
+@media screen  and (max-width:$screen-inter) {
+    .header-site{
+        .header_nav-logoimg-mb{
+            display:block;
+            width: 150px;
+            
+        }
+    }
+
+    .logo_nav{
+        display: none;
+    }
+    .h2{
+        width: 100%;
+    }
+    .header_nav--item{
+        padding: 0;
+        width: 106px;
+  
+    }
+    .header_nav--item{
+        display: block;
+        justify-content: right;
+        
+    }
+    .band{
+        display: block;
+        visibility: visible;
+        position: static;
+        height: 100%;
+        max-width: 98%;
+        }
+   
+
+}

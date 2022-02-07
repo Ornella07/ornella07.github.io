@@ -1,0 +1,37 @@
+
+$blanco:rgb(162, 161, 161);
+$negro:#000;
+$sombra-negra:#000;
+$nav:#5b7bcb;
+
+
+$screen-inter: 767px;
+
+
+// Sombras
+$sombra-negra : 1px 1px 15px 0 #000;
+// Bordes
+$borde-blanco : 1px solid #fff;
+$borde-blanco-2 : 1px solid #ccc;
+$borde-negro : 1px solid #000;
+$borde-redondeado : 5px;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster+Two&family=Montserrat:wght@300;400;700&display=swap');
+
+body {
+    margin:0;
+    color:$negro;
+    background-image:url(../../images/fondo2.jpg);
+   
+    font-family: 'Montserrat' , sans-serif;
+} 
+
+@import "header";
+//@import "inicio";
+@import "footer";
+@import "section";
+
+
+

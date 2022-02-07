@@ -1,0 +1,382 @@
+ 
+   .encabezado{
+    font-size: 1em;
+    position: relative;
+    margin: auto;
+    width: 90%;
+    max-width: 93.75em;
+    text-align: center;
+    font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif!important;
+    position:relative;
+    justify-content: space-between;
+    min-height: calc(120vh - 100px - 10px ) ;
+    align-items: center;
+
+        
+  
+    ul{
+       display: flex;
+        margin:0;
+        padding: 0;
+        font-weight: 400;
+    }
+    li{
+       
+        list-style: none;
+    
+        }
+
+    a {
+        text-decoration: none;
+        color:$blanco;
+        font-size: 20px;
+        position: relative;
+        justify-content: space-between;
+    }
+
+    h2{
+       padding: initial;
+        font-size: 250%;
+        color:$blanco;
+        margin-left:-10%
+    }
+    .historia-box-articulo{
+        text-align: center;
+       padding: 10px 0;
+        margin:50px;
+    }
+
+    .h2:hover{
+        box-shadow: $sombra-negra;
+        border-radius: $borde-redondeado;
+        color:$negro;
+        box-sizing: border-box;
+    }
+
+
+    // --- Boton 2020
+    .btn-full{
+        border: 2px solid $blanco;
+        color: $blanco;
+        transition: ease all .3s;
+        &:hover,
+        &:active {
+         background-color: $blanco;
+         color: $negro
+        }
+     .btn{
+         display: flex;
+         color: $blanco;
+         font-size: 380%;
+         background-color: rgba(32,29 , 29 , 0.6);
+    }
+          
+    //-- fondo
+.box{
+    position: relative;
+    height: 6.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(32,29 , 29 , 0.6);
+    //background-image:url(../../images/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    will-change: contents;
+    animation: image-slider 12s infinite linear;
+
+.titulo{
+    font-size: 200%;
+    display: block
+    
+}
+.text{
+  
+    animation-duration: 1.5s;
+    text-align: center;
+    position:  absolute;
+    
+  }
+
+}
+}
+.centro2{
+    align-items: center;
+    margin-top: 35px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+    color:$blanco;
+    height:120px; 
+   // line-height: 45px;
+   
+ }
+ 
+ 
+
+.titlewrap{ //texto lpda
+    span{
+        
+        color:#5b7bcb;
+        margin-top:15px;
+    }
+    .centro4{
+        margin: 2.8125em ;
+        background-color: rgba(32,29 , 29 , 0.9);
+        color:$blanco;
+        height: 7.5em; 
+     }
+}
+
+
+  //----Historia-----//
+  .historia-box-articulo .historia-box-titulo{
+    position:static;
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(23, 22, 22, 1);
+    color:$blanco;
+}
+.historia-box-parrafo{
+        flex:1;
+        position: relative;
+        height: 100%;
+        max-width: 100%;
+        display: block;
+        align-items:center;
+        background-color: rgba(32,29 , 29 , 0.9);
+        color:$blanco;
+        letter-spacing: 1px;
+        
+        
+     }
+.centro{
+  //  margin: 150px;
+    background-color: $negro;
+    color:$blanco;
+
+    .h1 .tit1{
+        text-align: center;
+        background-color: $negro;
+        padding: 15px 0;
+        margin: 160px;
+    }
+
+}
+  .historia-box-articulo .historia-box-titulo{
+    position: static;
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(23, 22, 22, 1);
+}
+.historia-box-parrafo{
+    //flex:1;
+    position: relative;
+    height: 100%;
+    max-width: 95%;
+    display: flex;
+    align-items: justify;
+    background-color: rgba(32, 29, 29, 0.9);
+}
+
+        
+
+
+
+//---- Discografia
+.discografia{
+    width: 110%;
+    position:static;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(23, 22, 22, 1);
+    align-items: flex-start;
+    padding: 0.125em 0 ;
+    min-height:3.4375em;
+}
+    
+//---Discografia
+    
+    .discografia_box{
+        background-color: rgba(20, 20 ,20 , 9);
+        position:relative;
+        overflow: hidden;
+        min-height: 60vh;
+        width: 70vh;
+        padding: 20px;
+        border:$borde-negro;
+        box-shadow: $sombra-negra;
+        animation: zoomInUp;
+        animation-duration: 0.2s;  
+        display:flex;
+             
+    }
+    .discografia-box-albumes{
+        margin:7.500em 0 0 -7.4375em;
+        box-sizing: border-box;
+        width: 100%;
+        background-color:#171616;
+        margin-right: 20%;
+        padding-top: em;
+        display: flex;
+        justify-content:space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+    }
+    .discografia_box-img{
+        margin:0;
+        padding: 0;
+        width: 12.5em;
+        height: 12.5em;
+        display: inline-block;
+        
+
+        
+    }
+   
+    .discografia-box-heading{
+        margin-bottom:0.3125em;
+        justify-content: space-around;
+        left: 250%;
+        color: rgb(138, 135, 130);
+        overflow: auto;
+        
+        padding: 0.625em;
+        display:flex;
+             
+        
+       
+    }
+
+    .discografia_box-span{
+        display: block;
+        //margin-left: -30px;
+        border-bottom:1px solid $blanco;
+        padding-bottom: 1px;
+        justify-content:center;
+        font-size: xx-large;
+        
+    }
+    .logonav{
+        padding-left: 6px;
+        
+      }
+    
+    .discografia_box-figure{
+        margin:1.875em 1.875em 0 0;
+        position:relative;
+        display:inline-block;
+        animation:fedeInUp;
+        animation-delay: 5s;
+        animation-duration: 8s;
+        transition: all else .3s;
+        :hover{
+            transform: scale(1.2);
+        }
+       
+    }
+    
+    .discografia_box-efecto:hover{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(20 ,20, 20 , 0.6);
+        opacity: 0;
+        visibility: hidden;
+        outline: .5px solid $negro;
+        transition: all ease .3s;
+        display: block;
+
+    }
+    .discografia-box-titulo-album{
+        color:$blanco;
+        height: 3.125em;
+        margin-top: 20%;
+        display: block;
+       justify-content: space-between;
+        
+        
+    }
+    .discografia_box-figure{
+       
+        width: 12.5em;
+        height: 12.5em;
+        display:inline-block;
+
+    }
+    .discografia-box-titulo-album{
+       
+        margin-right: 20%;
+        padding-top: 3.125em;
+        visibility: hidden;
+    }
+    .discografia_box-figure:hover .discografia-box-titulo-album{
+            visibility:visible;
+            align-items: center;
+    }
+
+
+
+
+//-----Banda----//
+
+.band{
+    position:static;
+    height: 100%;
+    max-width: 100%;
+   // display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color:$blanco;
+
+    
+}
+.banda-box-articulo {
+    position:static;
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(23, 22, 22, 1);
+} .banda-box-titulo{
+    position:static;
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(23, 22, 22, 1);
+}
+.banda-box-parrafo{
+        flex:1;
+         height: 100%;
+        max-width: 100%;
+        align-items:justify;
+        background-color: rgba(32,29 , 29 , 0.9);
+        letter-spacing: 1px;
+}
+
+    
+    .img-past{
+        display: grid;
+        float: left;
+         margin-left:-40px;
+         max-width: 128%;
+        }
+        
+    
+
+         
+    }

@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\..\\wamp64\\www\\laspastillas2\\web"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\wamp64\\www\\laspastillas2\\desarrollo"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\wamp64\\www\\laspastillas2\\images"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\wamp64\\www\\laspastillas2\\node_modules"
+		}
+	],
+	"settings": {}
+}

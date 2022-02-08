@@ -40,11 +40,7 @@
         color:$blanco;
         margin-left:-10%
     }
-    .historia-box-articulo{
-        text-align: center;
-       padding: 10px 0;
-        margin:50px;
-    }
+    
 
     .h2:hover{
         box-shadow: $sombra-negra;
@@ -123,7 +119,7 @@
     }
     .centro4{
         margin: 2.8125em ;
-        background-color: rgba(32,29 , 29 , 0.9);
+        background-color:$fondo;
         color:$blanco;
         height: 7.5em; 
      }
@@ -131,6 +127,11 @@
 
 
   //----Historia-----//
+  .historia-box-articulo{
+    text-align: center;
+   padding: 10px 0;
+    margin:0px;
+}
   .historia-box-articulo .historia-box-titulo{
     position:static;
     height: 100%;
@@ -204,7 +205,7 @@
     min-height:3.4375em;
 }
     
-//---Discografia
+
     
     .discografia_box{
         background-color: rgba(20, 20 ,20 , 9);
@@ -290,7 +291,7 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        background-color: rgba(20 ,20, 20 , 0.6);
+        background-color:$fondo;
         opacity: 0;
         visibility: hidden;
         outline: .5px solid $negro;
@@ -348,8 +349,7 @@
     max-width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: rgba(23, 22, 22, 1);
+    align-items: cente$fondo;
 } .banda-box-titulo{
     position:static;
     height: 100%;
@@ -357,24 +357,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(23, 22, 22, 1);
+    background-color:$fondo;
 }
 .banda-box-parrafo{
         flex:1;
          height: 100%;
         max-width: 100%;
         align-items:justify;
-        background-color: rgba(32,29 , 29 , 0.9);
+        background-color:$fondo;
         letter-spacing: 1px;
 }
 
-    
+  .banda-box-img{  
     .img-past{
         display: grid;
-        float: left;
-         margin-left:-40px;
-         max-width: 128%;
-        }
+       // float: left;
+         margin:0;
+         max-width: 100%;
+         width: 536px;
+    }
+}
         
     
 

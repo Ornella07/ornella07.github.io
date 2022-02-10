@@ -10,65 +10,13 @@
        height: 83px;
        padding: 0;
        margin-top: 5px;
-   }
-  
-   /* .header_nav--item{
-       // list-style: none;
-       width: 90%;
-       max-width: 1000px;
-        padding: 0.625em;
-        margin:20px auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        }
-    .header_nav_link{
-        color: $blanco;
-        text-transform: uppercase;
-        text-decoration: none;
-        font-weight: 600;
-        
- 
-    }
-    .header_nav_link::before{
-        content:"";
-         
-     }
-     .header_nav_link::after{
-        content:"";
-        display: block;
-        width: 100%;
-        background-color: rgb(138, 135, 130);
-        height: 2px;
-        opacity: 0;
-        transform: translateY(5px);
-        transition: 0.2s linear all;
-  }
-  
-    .header_nav_link:hover::after{
-        opacity: 1;
-        transform: translateY(0);
-        
-
-    }
-  
-   .header_nav--link:hover{
-       background-color: $blanco;
-      
-   
-   }
-  .header_nav--item:hover{
-   visibility: visible;
-   opacity: 1;
-  
-
-}*/
+   } 
     .header_nav-logoimg-mb{
         display: none;
         }
 
 
-}
+    }
 
 
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster+Two&family=Montserrat:wght@300;400;700&display=swap');
@@ -155,9 +103,9 @@ nav {
         margin-top: 8px;
         margin-left: 6px;
     }
-    .ham:hover{
-        transform: rotate(360deg);;
-    }
+    // .ham:hover{
+    //     transform: rotate(360deg);
+    // }
 
     nav{
         flex-direction: column;
@@ -193,7 +141,6 @@ nav {
     .br-1.animado{
         -webkit-transform: rotate(-45deg) translate(-9px, 6px);
         transform: rotate(-45deg) translate(-9px, 6px);
-
     }
    
     .br2.animado{

@@ -23,6 +23,7 @@ $borde-redondeado : 5px;
 
 body {
     margin:0;
+    max-width: 100%;
     color:$negro;
     background-image:url(../../images/fondo2.jpg);
    
@@ -30,7 +31,6 @@ body {
 } 
 
 @import "header";
-//@import "inicio";
 @import "footer";
 @import "section";
 
